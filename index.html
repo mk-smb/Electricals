@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Om Electricals</title>
     <!-- Google-fonts = "Poppins" -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -120,9 +120,9 @@
     <section class="my-6">
         <div class="main">
             <div class="gc-4 gap-8">
-                <div class="col-span-1">
+                <div class="col-span-1 mt-2">
                     <ul class="leading-10 text-[14px] uppercase">
-                        <li class="p-2  border flex items-center gap-5">
+                        <li class="p-2  border flex items-center gap-5 bg-gray-200">
                             <i class="fas fa-bars fa-lg"></i>
                             <h3 class="text-lg font-semibold">Categories</h3>
                         </li>
@@ -197,11 +197,62 @@
                             </a>
                         </li>
                     </ul>
+                    <ul class="text-[14px] border mt-4">
+                        <li class="bg-gray-200"><h4 class="font-semibold text-lg text-center p-2">Our Services</h4></li>
+                        <li class="border p-2 transition-all duration-500 hover:text-yellow-400">
+                            <a href="#">
+                                Electrical Equipment Rental
+                            </a>
+                        </li>
+                        <li class="border p-2 transition-all duration-500 hover:text-yellow-400">
+                            <a href="#">
+                                Electrical Equipment Calibration Service
+                            </a>
+                        </li>
+                        <li class="border p-2 transition-all duration-500 hover:text-yellow-400">
+                            <a href="#">
+                                Electrical Equipment Repair Service
+                            </a>
+                        </li>
+                        <li class="border p-2 transition-all duration-500 hover:text-yellow-400">
+                            <a href="#">
+                                Electrical Equipment Erection
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="mt-4 text-[14px]">
+                        <li class="border p-2 bg-gray-200"><h4 class="text-lg font-semibold text-center">Business Type</h4></li>
+                        <li class="border p-2 transition-all duration-500 hover:text-yellow-400"><a href="#">All</a></li>
+                        <li class="border p-2 transition-all duration-500 hover:text-yellow-400"><a href="#">Manufacturer</a></li>
+                        <li class="border p-2 transition-all duration-500 hover:text-yellow-400"><a href="#">Wholesaler</a></li>
+                        <li class="border p-2 transition-all duration-500 hover:text-yellow-400"><a href="#">Retailer</a></li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <main>
+                                    <img src="" alt="">
+                                </main>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-span-3 p-2  border">
+                <div class="col-span-3 p-2">
                     <!-- products in shop -->
-                    <main>
-                        <h3 class="text-2xl font-bold mb-5 mt-1">Electrical Products In Our Shop</h3>
+                    <main class="border mb-4 p-2">
+                        <div class="inBetween">
+                            <h3 class="text-2xl font-bold mb-5 mt-1">Electrical Products In Our Shop</h3>
+                            <div class="mb-2">
+                                <button class="border px-3 py-2 prev-btn bg-orange-500 transition-all duration-500 hover:bg-yellow-400">
+                                    <i class="fas fa-chevron-left"></i>
+                                </button>
+                                <button class="border px-3 py-2 next-btn bg-orange-500 transition-all duration-500 hover:bg-yellow-400">
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
                         <div class="owl-carousel shop-product-carousel">
                             <a href="#">
                                 <div class="item w-[150px] p-2 border h-[260px] relative">
@@ -280,9 +331,19 @@
                         </div>
                     </main>
                     <!-- products newly added -->
-                    <main>
-                        <h3 class="text-2xl font-bold mb-5 mt-1">Newly added products</h3>
-                        <div class="owl-carousel shop-product-carousel">
+                    <main class="border mb-4 p-2">
+                         <div class="inBetween">
+                            <h3 class="text-2xl font-bold mb-5 mt-1">Newly added products</h3>
+                            <div class="mb-2">
+                                <button class="border px-3 py-2 newly-prev-btn bg-orange-500 transition-all duration-500 hover:bg-yellow-400">
+                                    <i class="fas fa-chevron-left fa-sm"></i>
+                                </button>
+                                <button class="border px-3 py-2 newly-next-btn bg-orange-500 transition-all duration-500 hover:bg-yellow-400">
+                                    <i class="fas fa-chevron-right fa-sm"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="owl-carousel newly-products-carousel">
                             <a href="#">
                                 <div class="item w-[150px] p-2 border h-[275px] relative">
                                     <img src="assets/images/28.jpg" alt="" class="w-[75px] h-[55%] object-contain mb-2">
@@ -362,19 +423,19 @@
                         </div>
                     </main>
                     <!-- most sold electrical products -->
-                    <main>
+                    <main class="border mb-4 p-2">
                         <div class="inBetween">
                             <h3 class="text-2xl font-bold mb-5 mt-1">Most Selling Electricals Products</h3>
-                            <div>
-                                <button class="bg-black">
-                                    <i class="fas fa-left"></i>
+                            <div class="mb-2">
+                                <button class="border px-3 py-2 most-prev-btn bg-orange-500 transition-all duration-500 hover:bg-yellow-400">
+                                    <i class="fas fa-chevron-left"></i>
                                 </button>
-                                <button class="bg-black">
-                                    <i class="fas fa-right"></i>
+                                <button class="border px-3 py-2 most-next-btn bg-orange-500 transition-all duration-500 hover:bg-yellow-400">
+                                    <i class="fas fa-chevron-right"></i>
                                 </button>
                             </div>
                         </div>
-                        <div class="owl-carousel shop-product-carousel">
+                        <div class="owl-carousel mostly-sold-product-carousel">
                             <a href="#">
                                 <div class="item w-[150px] p-2 border h-[260px] relative">
                                     <img src="assets/images/26.jpg" alt="" class="w-full object-contain">
@@ -452,9 +513,20 @@
                             </a>
                         </div>
                     </main>
-                    <main>
-                        <h3 class="text-2xl font-bold mb-5 mt-1">Featured Electricals Products Online</h3>
-                        <div class="owl-carousel shop-product-carousel">
+                    <!-- featured products -->
+                    <main class="border mb-4 p-2">
+                        <div class="inBetween">
+                            <h3 class="text-2xl font-bold mb-5 mt-1">Featured Electricals Products Online</h3>
+                            <div class="mb-2">
+                                <button class="border px-3 py-2 featured-prev-btn bg-orange-500 transition-all duration-500 hover:bg-yellow-400">
+                                    <i class="fas fa-chevron-left"></i>
+                                </button>
+                                <button class="border px-3 py-2 featured-next-btn bg-orange-500 transition-all duration-500 hover:bg-yellow-400">
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="owl-carousel featured-product-carousel">
                             <div class="item w-[150px] p-2 border h-[260px] relative">
                                 <img src="https://www.electricalsonline.in/admin/images/products/1531921880_DS1.JPG" alt="" class="h-[50%] w-full object-contain mt-3">
                                 <main class="text-center">
