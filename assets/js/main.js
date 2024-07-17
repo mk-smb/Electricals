@@ -15,6 +15,13 @@ $(".featured-product-carousel").owlCarousel({
     margin: 10,
 })
 
+$(".review-carousel").owlCarousel({
+    items: 3,
+    margin: 15,
+    autoplay: true,
+    loop: true,
+})
+
 
 
 var owl1 = $('.shop-product-carousel');
@@ -59,4 +66,15 @@ $('.featured-next-btn').click(function() {
 // Go to the previous item
 $('.featured-prev-btn').click(function() {
     owl4.trigger('prev.owl.carousel', [300]);
+})
+
+// 5th carousel
+var owl5 = $('.owl-carousel.review-carousel');
+owl5.owlCarousel();
+$('.review-next-btn').click(function() {
+    owl5.trigger('next.owl.carousel', [300]);
+})
+// Go to the previous item
+$('.review-prev-btn').click(function() {
+    owl5.trigger('prev.owl.carousel', [300]);
 })
